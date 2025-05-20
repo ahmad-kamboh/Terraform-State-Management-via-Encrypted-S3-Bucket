@@ -7,8 +7,7 @@
 # --------------------------------------
 
 echo "🔁 Step 1: Cloning the repository..."
-git clone https://github.com/shoaibrex/iac_terraform.git
-cd iac_terraform/multi-tier-app/ || exit
+git clone https://github.com/ahmad-kamboh/Terraform-State-Management-via-Encrypted-S3-Bucket.git
 
 echo "✅ Repository cloned. Moving into project directory."
 
