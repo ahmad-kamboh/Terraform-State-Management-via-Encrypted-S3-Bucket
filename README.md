@@ -1,7 +1,6 @@
 
 # **AWS Multi-Tier Architecture using Terraform 🛠️☁️**
 
-![Architecture](https://github.com/user-attachments/assets/terraform-multi-tier-architecture-diagram.jpg)
 
 ---
 
@@ -54,4 +53,44 @@ This infrastructure follows a 3-tier design:
 ---
 
 ## 📁 **Project Structure**
+multi-tier-app/
+├── main.tf # Provider and high-level orchestration
+├── vpc.tf # VPC, subnets, and routing logic
+├── ec2.tf # Web server (EC2) and provisioning
+├── db.tf # RDS database configuration
+├── security_groups.tf # Security group definitions
+├── secrets.tf # KMS key and Secrets Manager resource
+├── s3.tf # Encrypted & versioned S3 bucket
+├── variables.tf # Input variable definitions
+├── terraform.tfvars # Sensitive input values (ignored in Git)
+├── outputs.tf # Useful outputs like public IP, DB endpoint
+├── backend.tf # Terraform Cloud backend configuration
+├── .gitignore # Ignores state files and sensitive configs
 
+
+---
+
+## 🔐 **Security & Secrets**
+
+- Secrets such as database passwords are **securely stored in AWS Secrets Manager**  
+- All secrets are encrypted using a **customer-managed AWS KMS key**  
+- **Security groups** restrict EC2 and RDS access based on port and CIDR
+
+---
+
+## 🪣 **S3 Bucket for State Files**
+
+This project also provisions an **S3 bucket** with:
+
+- ✅ **Versioning** enabled for rollback and audits  
+- ✅ **AES-256 server-side encryption** for data protection
+
+---
+
+📞 Contact Information
+
+| **Method** | **Details**                  |
+|------------|------------------------------|
+| Email      | ahmadtahir4235@gmail.com     |
+| Phone      | +92 3000511136               |
+| LinkedIn   | https://linkedin.com/in/m-ahmadtahir |
