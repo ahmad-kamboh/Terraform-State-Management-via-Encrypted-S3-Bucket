@@ -94,6 +94,9 @@ This project also provisions an **S3 bucket** with:
 
 ---
 
+![Image](https://github.com/user-attachments/assets/f17fb989-365e-460c-9f3d-acd1207bf3ab)
+
+
 📞 Contact Information
 
 | **Method** | **Details**                  |
