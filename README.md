@@ -20,6 +20,10 @@ Everything is automated using **Infrastructure as Code (IaC)** with Terraform.
 
 ---
 
+
+![Image](https://github.com/user-attachments/assets/ef3c2b20-e3cd-4d12-82a4-9c19860f113c)
+
+
 ## 📌 **Project Agenda**
 
 - ✅ Create a custom **VPC** with public and private subnets  
