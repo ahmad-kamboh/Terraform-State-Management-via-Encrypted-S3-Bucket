@@ -54,6 +54,9 @@ This infrastructure follows a 3-tier design:
 | Encryption       | AWS KMS                     |
 | Storage & State  | S3 Bucket, Terraform Cloud  |
 
+
+![Image](https://github.com/user-attachments/assets/8b182425-52b6-4ad4-9624-2141d1327f71)
+
 ---
 
 ## 📁 **Project Structure**
